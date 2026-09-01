@@ -18,7 +18,7 @@
 <meta property="og:title" content="Signature Photography | Signature products deserve signature photography">
 <meta property="og:description" content="Studio and on-location product photography for brands and agencies. Southeastern PA-based, available nationwide.">
 <meta property="og:url" content="https://www.signature.photography/"> <!-- REPLACE -->
-<meta property="og:image" content="images/header-hero.jpg"> <!-- REPLACE: absolute URL once live -->
+<meta property="og:image" content="https://raw.githubusercontent.com/sig-phot/website/main/Poland_arena_aerial_01.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -32,7 +32,7 @@
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Signature Photography",
-  "image": "images/header-hero.jpg",
+  "image": "https://raw.githubusercontent.com/sig-phot/website/main/Poland_arena_aerial_01.jpg",
   "url": "https://www.signature.photography/",
   "email": "clement@signature.photography",
   "priceRange": "$$",
@@ -112,8 +112,8 @@
   header{position:fixed; top:0; left:0; right:0; z-index:100; background:var(--black); border-bottom:1px solid var(--line); padding:18px 0; transition:padding .25s ease;}
   header.scrolled{padding:12px 0;}
   header .wrap{display:flex; align-items:center; justify-content:space-between;}
-  .logo{font-family:var(--sans); font-weight:800; font-size:19px; letter-spacing:.03em; color:var(--white); display:flex; align-items:center; gap:9px;}
-  .logo .mark{color:var(--red); font-family:var(--serif); font-style:italic; font-size:22px;}
+  .logo{display:flex; align-items:center;}
+  .logo-img{height:32px; width:auto;}
   nav{display:flex; align-items:center; gap:34px;}
   .navlinks{display:flex; gap:30px;}
   nav a.navlink{font-size:13px; letter-spacing:.04em; font-weight:500; color:rgba(255,255,255,.82); transition:color .2s;}
@@ -130,7 +130,7 @@
   /* ---------- Hero ---------- */
   .hero{
     position:relative; min-height:100vh; display:flex; align-items:flex-end;
-    background:linear-gradient(180deg, rgba(10,10,10,.4) 0%, rgba(10,10,10,.55) 55%, rgba(10,10,10,.95) 100%), url('images/header-hero.jpg') center/cover no-repeat;
+    background:linear-gradient(180deg, rgba(10,10,10,.4) 0%, rgba(10,10,10,.55) 55%, rgba(10,10,10,.95) 100%), url('https://raw.githubusercontent.com/sig-phot/website/main/Poland_arena_aerial_01.jpg') center/cover no-repeat;
     background-color:var(--black); padding-bottom:90px;
   }
   .hero-frame{position:absolute; top:96px; left:28px; right:28px; bottom:90px; max-width:calc(var(--maxw) - 56px); margin:0 auto;}
@@ -211,7 +211,7 @@
   .book{position:relative; background:var(--black); color:var(--white); overflow:hidden;}
   .book::before{
     content:""; position:absolute; inset:0;
-    background:url('images/book-session-bg.jpg') center/cover no-repeat;
+    background:url('https://raw.githubusercontent.com/sig-phot/website/main/Untitled_HDR-3.jpg') center/cover no-repeat;
     opacity:.16; z-index:0;
   }
   .book .wrap{position:relative; z-index:1;}
@@ -233,7 +233,7 @@
   .foot-col h4{font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.45); margin-bottom:16px; font-weight:700;}
   .foot-col p, .foot-col a{font-size:14px; color:rgba(255,255,255,.75); display:block; margin-bottom:10px;}
   .foot-col a:hover{color:var(--red);}
-  .foot-logo{font-family:var(--serif); font-style:italic; font-weight:600; font-size:22px; color:var(--white); margin-bottom:14px; display:block;}
+  .foot-logo-img{height:30px; width:auto; margin-bottom:14px; display:block;}
   .foot-bottom{border-top:1px solid var(--line); padding-top:22px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;}
   .foot-bottom p{font-size:12.5px; color:rgba(255,255,255,.45);}
 
@@ -274,7 +274,7 @@
 <!-- ================= HEADER ================= -->
 <header id="siteHeader">
   <div class="wrap">
-    <a href="#top" class="logo"><span class="mark">S</span> SIGNATURE PHOTOGRAPHY</a>
+    <a href="#top" class="logo"><img src="https://raw.githubusercontent.com/sig-phot/website/main/logo-white.svg" alt="Signature Photography" class="logo-img"></a>
     <nav>
       <div class="navlinks">
         <a class="navlink" href="#services">Services</a>
@@ -397,37 +397,37 @@
       <span class="eyebrow">Sample Gallery</span>
       <h2>A sample of what shipped this quarter.</h2>
     </div>
-    <!-- REPLACE: swap each src for your real images. See README for GitHub image linking notes. -->
+    <!-- Sourced from github.com/sig-phot/website — see README to swap or reorder. -->
     <div class="portfolio-grid reveal">
       <div class="portfolio-item">
-        <img src="images/gallery-01.jpg" alt="Product photography sample 1" loading="lazy">
+        <img src="https://raw.githubusercontent.com/sig-phot/website/main/DJI_0308_sans-cars.jpg" alt="Aerial drone real estate photography" loading="lazy">
         <div class="brackets"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
-        <div class="cap">E-Commerce</div>
+        <div class="cap">Real Estate &#8212; Aerial</div>
       </div>
       <div class="portfolio-item">
-        <img src="images/gallery-02.jpg" alt="Product photography sample 2" loading="lazy">
+        <img src="https://raw.githubusercontent.com/sig-phot/website/main/Vidas_kitchen_02HDR.jpg" alt="Real estate interior kitchen photography" loading="lazy">
         <div class="brackets"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
-        <div class="cap">Lifestyle</div>
+        <div class="cap">Real Estate &#8212; Interior</div>
       </div>
       <div class="portfolio-item">
-        <img src="images/gallery-03.jpg" alt="Product photography sample 3" loading="lazy">
+        <img src="https://raw.githubusercontent.com/sig-phot/website/main/Lifestyle_Mercedes_004.jpg" alt="Lifestyle automotive brand photography" loading="lazy">
         <div class="brackets"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
-        <div class="cap">Studio</div>
+        <div class="cap">Lifestyle Marketing</div>
       </div>
       <div class="portfolio-item">
-        <img src="images/gallery-04.jpg" alt="Product photography sample 4" loading="lazy">
+        <img src="https://raw.githubusercontent.com/sig-phot/website/main/SIGP1234.jpg" alt="Product marketing photography" loading="lazy">
         <div class="brackets"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
-        <div class="cap">Detail</div>
+        <div class="cap">Product Marketing</div>
       </div>
       <div class="portfolio-item">
-        <img src="images/gallery-05.jpg" alt="Product photography sample 5" loading="lazy">
+        <img src="https://raw.githubusercontent.com/sig-phot/website/main/SIGP2123.jpg" alt="Product marketing photography, studio setup" loading="lazy">
         <div class="brackets"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
-        <div class="cap">Flat Lay</div>
+        <div class="cap">Product Marketing</div>
       </div>
       <div class="portfolio-item">
-        <img src="images/gallery-06.jpg" alt="Product photography sample 6" loading="lazy">
+        <img src="https://raw.githubusercontent.com/sig-phot/website/main/Ashley%20Shirah.jpg" alt="Portfolio portrait photography" loading="lazy">
         <div class="brackets"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
-        <div class="cap">Bulk Catalog</div>
+        <div class="cap">Portfolio Imagery</div>
       </div>
     </div>
   </div>
@@ -536,7 +536,7 @@
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-col">
-        <span class="foot-logo">Signature Photography</span>
+        <img src="https://raw.githubusercontent.com/sig-phot/website/main/logo-white.svg" alt="Signature Photography" class="foot-logo-img">
         <p>Product photography for brands and agencies, based in Southeastern PA.</p>
       </div>
       <div class="foot-col">
